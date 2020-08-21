@@ -11,7 +11,9 @@ export class Confstructor {
      * @param {*} schema
      * @param {*} validate
      */
-    constructor(schema, validate) {= {};
+    constructor(schema, validate) {
+        this.schema = schema;
+        this.configuration = validate;
     }
 
     /**
